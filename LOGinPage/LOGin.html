@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Creating NavBar -->
+    <div class="navbar">
+      <div class="logobox">
+        <img
+          id="logo"
+          src="Firefly_generate_a_logo_for_my_water_management_app_named_as_water_wise_dont_use_water_bottles_and_g[1].jpg"
+          alt="Logo"
+        />
+      </div>
+      <div class="name">
+        <div id="firstName">h20</div>
+        <span id="secondName">Tracker</span>
+      </div>
+    </div>
+    <div class="login">
+      <p class="text">LOGIN</p>
+    </div>
+    <div class="mail">
+      <input class="myInput" type="email" placeholder="Email" />
+      <!-- <img class="img1" src="112-gmail_email_mail-512.webp" /> -->
+      <ion-icon class="icon" name="mail-outline"></ion-icon>
+    </div>
+    <div class="pass">
+      <!-- <img
+        class="img2"
+        src="show-password-icon-eye-symbol-vector-vision-hide-watch-secret-view-web-design-element-241773911.webp"
+      /> -->
+      <input
+        id="passInput"
+        class="myInput"
+        type="password"
+        placeholder="Password"
+      />
+      <!-- <input type="checkbox" name="Show" id="show" onclick="myFunction()"> -->
+      <button
+        id="myButton"
+        style="
+          background-color: white;
+          display: flex;
+          align-items: center;
+          width: fit-content;
+          font-size: small;
+        "
+        onclick="myFunction()"
+      >
+        Show
+      </button>
+      <!-- <span>Show</span> -->
+    </div>
+    <div class="remb">
+      <input class="box" type="checkbox" />
+      <label class="me">Remember me</label>
+    </div>
+    <div class="log"><a href="../MainPage/mainPage.html">
+      <button class="log1">Login</button></a>
+    </div>
+    <div class="or">
+      <p class="log2">Or login with</p>
+    </div>
+    <div class="go"><a href="../MainPage/mainPage.html">
+      <button class="text4">
+        <img class="img3" src="Google__G__logo.svg.webp" />
+        <p>Google</p>
+      </button></a>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("passInput");
+        var myBut = document.getElementById("myButton");
+        if (x.type === "password") {
+          x.type = "text";
+          myBut.innerText = "Hide";
+        } else {
+          x.type = "password";
+          myBut.innerText = "Show";
+        }
+      }
+     
+      //log in with mail function
+ let logInBtn = document.querySelector(".log1");
+ logInBtn.onclick=()=>{
+   alert("Successfully Login!");
+ };
+
+  //log in with google function
+ let logInBtn2 = document.querySelector(".text4");
+ logInBtn2.onclick=()=>{
+   alert("Successfully Login!");
+ };
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    border: border-box;
+    
+}
+
+.container {
+    background-image: linear-gradient( #edf6fa, #95c3f2);
+    height: 100vh;
+}
+.nav{
+    height: 60px;
+    color: black;
+    display: flex;    
+    align-items: center;
+    /* background: none; */
+
+}
+.profile{
+    margin-left:1430px;
+    font-size: 30px;
+    /* background: none; */
+}
+.menu{
+    margin-left: auto;
+    padding: 20px;
+    font-size: 30px;
+    /* background: none; */
+}

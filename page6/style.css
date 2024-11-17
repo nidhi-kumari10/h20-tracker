@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-image: linear-gradient( #edf6fa, #95c3f2);
+    height:100vh;
+
+}
+
+.text1{
+    color:blue;
+    font-size:xx-large;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+hr{
+   margin-top: 20px;
+}
+.text2{
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    margin-top: 20px;   
+}
+.naam{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.text3{
+    border: none;
+    outline: none;
+    background-color: rgb(237, 232, 232);
+    width: 35vh;
+    height: 5vh;
+    border-radius: 5px;
+    font-size: large;
+}
+.res{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.but{
+    font-size: small;
+    color: rgb(99, 97, 97);
+    width:200px;
+    height:25px;
+    border:none;
+    border-radius:5px;
+}
+.but:hover{
+    background-color: rgb(89, 89, 248);
+    transform: scale(1);
+}
+.buto{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+button:hover{
+   background-color: rgb(89, 89, 248);
+   transform: scale(1);
+}
+button{
+    font-size: small;
+    color: rgb(99, 97, 97);
+    width:100px;
+    border-radius:3px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

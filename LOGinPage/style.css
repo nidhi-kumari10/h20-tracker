@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient( #edf6fa, #95c3f2);
+    height: 100vh; 
+}
+
+.navbar{
+    height:100px;
+    width: 100%;
+    display: flex;
+}
+#logo{
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+}
+.name{
+    margin-top: 40px;
+}
+#firstName{
+    color: #667db6;  /* fallback for old browsers */
+    color: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+    color: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size: 20px;
+    font-family:cursive;
+}
+#secondName{
+    color: rgba(90, 8, 8, 0.756);
+    font-size: 30px;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.text{
+    font-size: xx-large;
+    margin-top: 50px;
+    font-weight: 900;
+}
+.login{
+    display: flex;
+    justify-content: center;
+}
+.mail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    width: 30vw;
+    padding: 0 1rem;
+    height: 7vh;
+    background: white;
+    border-radius: 5px;
+
+}
+
+.icon {
+    font-size: 1.5rem;
+}
+
+button{
+   width: 500px;
+   font-size: larger;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   background-color:white;
+   border: none;
+   border-radius: 5px;
+}
+.img1{
+    height: 25px;
+    width: 25px;
+    margin-top: 10px;
+}
+.text1{
+    margin-top: 13px;
+    margin-left: 5px;
+    font-size: larger;
+}
+.pass{
+    display: flex;
+    justify-content: space-between;
+    width: 30vw;
+    padding: 0 1rem;
+    height: 7vh;
+    align-items: center;
+    margin-top: 30px;
+    background: white;
+    border-radius: 5px;
+}
+input {
+    border: none;
+    outline: none;
+    height: 6vh;
+    width: 25vw;
+    font-size: 1.25rem;
+}
+
+#show{
+    width: fit-content;
+}
+.img2{
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+}
+.text2{
+    margin-top: 13px;
+    margin-left: 5px;
+    font-size: larger;
+}
+
+.box{
+    height: 18px;
+    margin-right: 5px;
+
+}
+
+.remb{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+
+}
+.remb input {
+    width: auto;
+}
+.log1{
+   align-items: center;
+}
+.log{
+    margin-top: 25px;
+}
+.or{
+    margin-top: 20px;
+}
+.log2{
+    font-size: larger;
+    margin-top: 0px;
+}
+.img3{
+    height: 25px;
+    width: 25px;
+    margin-right: 5px;
+}
+.go{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.text4{
+    display: flex;
+    align-items: center;
+}
+.me{
+    font-size: larger;
+}
+.log1:hover{
+    background-color: rgba(0, 0, 255, 0.9);
+}
+.text4:hover{
+    background-color: rgba(0, 0, 255, 0.9);
+    transform:scale(1);
+}
+.me{
+    font-size: larger;
+}
+a{
+    text-decoration: none;
+}
+    

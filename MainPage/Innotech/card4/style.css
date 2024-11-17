@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+.container{
+    background-image: linear-gradient(#edf6fa, #95c3f2);
+    height: 100%;
+}
+.bundelkhand{
+    display: flex;
+    justify-content: center;
+}
+.img1{
+    padding-top: 15px;
+    height:480%;
+    width:670px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+}
+.font{
+    color: black;
+    font-weight: 900;
+    font-size: xx-large;
+    padding-top: 20px;
+}
+.para{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}

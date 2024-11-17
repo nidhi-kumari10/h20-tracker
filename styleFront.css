@@ -1,0 +1,54 @@
+body{
+    background: #667db6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#version{
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#logo{
+    margin-top: 150px;
+    height: 300px;
+    width: 300px;
+    margin-right: 25px;
+}
+.name{
+    margin-top: 300px;
+}
+#firstName{
+    color: rgb(201, 233, 245);
+    font-size: 60px;
+    font-family:cursive;
+}
+#secondName{
+    color: rgba(90, 8, 8, 0.756);
+    font-size: 50px;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.footer{
+    margin-left: 60%;
+    margin-top: 100px;
+    justify-content: space-around;
+    color: aliceblue;
+    font-size: 50px;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+#arrow{
+    width: 150px;
+    height: 60px;
+}

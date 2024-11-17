@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient( #edf6fa, #95c3f2);
+    height: 100vh; 
+}
+
+.navbar{
+    height:100px;
+    width: 100%;
+    display: flex;
+}
+#logo{
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+}
+.name{
+    margin-top: 40px;
+}
+#firstName{
+    color: #667db6;  /* fallback for old browsers */
+    color: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+    color: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size: 20px;
+    font-family:cursive;
+}
+#secondName{
+    color: rgba(90, 8, 8, 0.756);
+    font-size: 30px;
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.optionBtn{
+    height: 70vh;
+    display: flex;
+    flex-direction:column;
+   justify-content: center;
+   align-items: center;
+   
+}
+button{
+    height:50px;
+    width:200px;
+    border: none;
+    border-radius: 5px;
+    font-size:25px;
+    margin:15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    background: #667db6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    cursor: pointer;
+}
+span{
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
