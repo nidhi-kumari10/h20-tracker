@@ -12,7 +12,7 @@ body{
    height: 100vh;
 }
 .box{
-    height: 380px;
+    height: 350px;
     width: 300px;
     background: #667db6;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */

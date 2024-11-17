@@ -1,52 +1,66 @@
-*{
+* {
     margin: 0;
     padding: 0;
-}
-
-body{
+    box-sizing: border-box;
+  }
+  
+  body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: linear-gradient( #edf6fa, #95c3f2);
-    height: 100vh; 
-}
-
-.navbar{
-    height:100px;
+    background-image: linear-gradient(#edf6fa, #95c3f2);
+    height: 100vh;
+  }
+  .navbar {
+    height: 100px;
     width: 100%;
     display: flex;
-}
-#logo{
+  }
+  #logo {
     height: 100px;
     width: 100px;
     margin-right: 10px;
-}
-.name{
+  }
+  .name {
     margin-top: 40px;
-}
-#firstName{
-    color: #667db6;  /* fallback for old browsers */
-    color: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
-    color: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  #firstName {
+    color: #667db6; /* fallback for old browsers */
+    color: -webkit-linear-gradient(
+      to right,
+      #667db6,
+      #0082c8,
+      #0082c8,
+      #667db6
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    color: linear-gradient(
+      to right,
+      #667db6,
+      #0082c8,
+      #0082c8,
+      #667db6
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-size: 20px;
-    font-family:cursive;
-}
-#secondName{
+    font-family: cursive;
+  }
+  #secondName {
     color: rgba(90, 8, 8, 0.756);
     font-size: 30px;
     font-style: italic;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
-.text{
-    font-size: xx-large;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  .text {
+    font-size: 2.5rem;
     margin-top: 50px;
     font-weight: 900;
-}
-.login{
+    text-align: center;
+  }
+  .login {
     display: flex;
     justify-content: center;
-}
-.mail{
+    width: 100%;
+  }
+  .mail {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -56,34 +70,34 @@ body{
     height: 7vh;
     background: white;
     border-radius: 5px;
-
-}
-
-.icon {
+  }
+  
+  .icon {
     font-size: 1.5rem;
-}
-
-button{
-   width: 500px;
-   font-size: larger;
-   height: 50px;
-   display: flex;
-   justify-content: center;
-   background-color:white;
-   border: none;
-   border-radius: 5px;
-}
-.img1{
+  }
+  
+  button {
+    width: 80vw;
+    font-size: 1.25rem;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  .img1 {
     height: 25px;
     width: 25px;
     margin-top: 10px;
-}
-.text1{
+  }
+  .text1 {
     margin-top: 13px;
     margin-left: 5px;
     font-size: larger;
-}
-.pass{
+  }
+  .pass {
     display: flex;
     justify-content: space-between;
     width: 30vw;
@@ -93,84 +107,150 @@ button{
     margin-top: 30px;
     background: white;
     border-radius: 5px;
-}
-input {
+  }
+  
+  #myButton {
+    background-color: white;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+    font-size: small;
+  }
+  input {
     border: none;
     outline: none;
     height: 6vh;
     width: 25vw;
     font-size: 1.25rem;
-}
-
-#show{
+  }
+  
+  #show {
     width: fit-content;
-}
-.img2{
+  }
+  .img2 {
     height: 30px;
     width: 30px;
     margin-top: 10px;
-}
-.text2{
+  }
+  .text2 {
     margin-top: 13px;
     margin-left: 5px;
     font-size: larger;
-}
-
-.box{
+  }
+  
+  .box {
     height: 18px;
     margin-right: 5px;
-
-}
-
-.remb{
+  }
+  
+  .remb {
     margin-top: 30px;
     display: flex;
     align-items: center;
-
-}
-.remb input {
+  }
+  .remb input {
     width: auto;
-}
-.log1{
-   align-items: center;
-}
-.log{
+  }
+  .log1 {
+    align-items: center;
+    width: 30vw;
+  }
+  .log {
     margin-top: 25px;
-}
-.or{
+  }
+  .or {
     margin-top: 20px;
-}
-.log2{
+  }
+  .log2 {
     font-size: larger;
     margin-top: 0px;
-}
-.img3{
+  }
+  .img3 {
     height: 25px;
     width: 25px;
     margin-right: 5px;
-}
-.go{
+  }
+  .go {
     display: flex;
     justify-content: center;
     margin-top: 20px;
-}
-.text4{
+  }
+  .text4 {
     display: flex;
     align-items: center;
-}
-.me{
+    width: 30vw;
+  }
+  .me {
     font-size: larger;
-}
-.log1:hover{
+  }
+  .log1:hover {
     background-color: rgba(0, 0, 255, 0.9);
-}
-.text4:hover{
+  }
+  .text4:hover {
     background-color: rgba(0, 0, 255, 0.9);
-    transform:scale(1);
-}
-.me{
+    transform: scale(1);
+  }
+  .me {
     font-size: larger;
-}
+  }
+  @media (max-width: 480px) {
+    body {
+      padding: 5px;
+    }
+  
+    .text {
+      font-size: 1.5rem;
+    }
+  
+    .mail,
+    .pass {
+      width: 85vw;
+      margin-top: 15px;
+    }
+  
+    #myButton {
+      display: flex;
+    }
+  
+    button {
+      width: 100%;
+      font-size: 1rem;
+      height: 45px;
+      margin: 8px 0;
+    }
+  
+    .img1,
+    .img2,
+    .img3 {
+      height: 20px;
+      width: 20px;
+    }
+  
+    .text1,
+    .text2,
+    .text4 {
+      font-size: 1.2rem;
+      width: 80vw;
+    }
+  
+    .log1 {
+      font-size: 1.2rem;
+      width: 80vw;
+    }
+    .navbar {
+      padding: 0 10px;
+    }
+  
+    .name {
+      margin-top: 10px;
+    }
+    .log1:active,
+    .text4:active {
+      background-color: rgba(0, 0, 255, 0.9);
+      transform: scale(1.1);
+    }
+  }
 a{
     text-decoration: none;
 }

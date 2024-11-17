@@ -9,7 +9,7 @@ body{
 .container{
    display: flex;
    justify-content: space-around;
-   padding:20px;
+   padding:5px;
 }
 .box{
     height: 380px;
@@ -44,7 +44,7 @@ body{
     }
   }
  .btn{
-    margin-top:22px;
+    margin-top:15px;
     display: flex;
     justify-content: right;
     margin-right: 30px;
@@ -80,3 +80,6 @@ body{
     height:40px;
     width: 60px;
  }    
+ .back{
+height:40px;
+ }
