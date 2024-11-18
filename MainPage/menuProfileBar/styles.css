@@ -5,7 +5,7 @@
 
 body{
     background-image: linear-gradient( #edf6fa, #95c3f2);
-    height: 100%; 
+     max-height: max-content;
 }
 
 .navbar{
@@ -67,4 +67,58 @@ body{
 a{
     text-decoration: none;
     color: black;
+}
+.name2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:20px;
+    flex-direction: column;
+    padding-bottom: 20px;
+    padding-top:10px;
+}
+.para{
+    font-size: large;
+    font-family: cursive;
+}
+.para2{
+    font-size:18px;
+}
+@media (max-width:480px){
+    .options{
+        font-size:14px;
+        height:25px;
+        margin:10px;
+    }
+    .para{
+        font-size:14px;
+        font-family: cursive;
+    }
+    .para2{
+        font-size:14px;
+    }
+    .profilePhoto{
+        margin-top: 12px;
+    }
+    #photo{
+        height: 60px;
+        width:60px;
+    }
+    .navbar{
+        height:70px;
+       }
+    #logo{
+        height: 70px;
+        width: 70px;
+        margin-right:5px;
+    }
+    .name{
+        margin-top:25px;
+    }
+    #firstName{
+        font-size:18px;
+    }
+    #secondName{
+    font-size:20px ;
+    }
 }

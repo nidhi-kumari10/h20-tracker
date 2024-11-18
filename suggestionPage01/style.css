@@ -62,24 +62,54 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
  }
- @media (max-width: 768px) {
-    .container{
-        display: flex;
-      flex-wrap: wrap;
-     }
-}
-
-/* Mobile screens */
-@media (max-width: 480px) {
-    .container{
-        display: flex;
-       flex-wrap: wrap;
-     }
-}
-#backBtn{
+ #backBtn{
     height:40px;
     width: 60px;
  }    
  .back{
 height:40px;
  }
+
+/* Mobile screens */
+@media (max-width: 480px) {
+    .container{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        margin-top:0px;
+     }
+     body{
+        height: 100vh;
+     }
+     #box2{
+        margin-top: 10px;
+     }
+     .box{
+        height:175px;
+      width: 250px;
+      margin: 10px;
+     }
+  .para{
+    font-size:20px;
+  }  
+  .back{
+    height: 30px;
+  }
+  #backBtn{
+    height: 30px;
+    width: 40px;
+  }
+  .btn{
+    margin-top:15px;
+    display: flex;
+    justify-content: right;
+    margin-right: 30px;
+    margin-bottom: 10px;
+ }
+ #arrow{
+    height:20px;
+    width:30px;
+ } 
+ }
+

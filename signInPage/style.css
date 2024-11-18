@@ -73,4 +73,36 @@ button:hover{
     background-color: blue;
     transform:scale(1);
 }
+@media (max-width: 480px) {
+    body {
+        padding: 10px; 
+    }
+
+    .navbar {
+        height: 70px;
+    }
+
+    .name1 {
+        width: 80vw; 
+        height: 7vh; 
+    }
+
+    button {
+        width: 80vw;
+        height: 7vh;
+    }
+
+    .text {
+        font-size: 1.5rem; 
+        margin-top: 30px; 
+    }
+
+    #firstName {
+        font-size: 16px;
+    }
+
+    #secondName {
+        font-size: 20px;
+    }
+}
 

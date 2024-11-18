@@ -36,22 +36,25 @@ hr{
     background-color: rgb(237, 232, 232);
     width: 50vh;
     height: 5vh;
-    border-radius: 5px;
-    text-align:center;
-    font-size: large;
+    border-radius: 5px;font-size: large;
+    text-align: center;
 }
 .res{
     display: flex;
     justify-content: center;
     margin-top: 10px;
+    
+    
 }
 .but{
     font-size: small;
     color: rgb(99, 97, 97);
-    width:200px;
-    height:25px;
-    border:none;
-    border-radius:5px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    justify-content: center;
+    
 }
 .but:hover{
     background-color: rgb(89, 89, 248);
@@ -61,7 +64,6 @@ hr{
     display: flex;
     justify-content: center;
     margin-top: 10px;
-
 }
 button:hover{
    background-color: rgb(89, 89, 248);
@@ -70,8 +72,37 @@ button:hover{
 button{
     font-size: small;
     color: rgb(99, 97, 97);
-    width:100px;
-    border-radius:3px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    justify-content: center;
+
+}
+@media (max-width: 480px) {
+    .container{
+        padding: 10px;
+    }
+    .text1 {
+        font-size: 1.5rem; 
+        margin-top: 15px;
+    }
+    .text2 {
+        font-size: 1.1rem; 
+        margin-top: 10px;
+    }
+    .text3 {
+        width: 80vw; 
+        height: 5vh; 
+        font-size: large;
+    }
+    button {
+        font-size: small;
+        width: 20vw; 
+        height: 4vh;
+        display: flex;
+        align-items: center;
+    }
 }
 a{
     text-decoration: none;

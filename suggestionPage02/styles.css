@@ -54,3 +54,39 @@ body{
     height:40px;
     width: 60px;
  }    
+
+ @media (max-width: 480px) {
+    .container{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        padding:0%;
+        
+     }
+     body{
+        overflow:hidden;
+     }
+     #box2{
+        margin-top: 10px;
+     }
+     .box{
+        height:175px;
+      width: 250px;
+      margin: 10px;
+     }
+     #box3{
+     height: 160px; 
+    }
+  .para{
+    font-size:20px;
+  }  
+    .back{
+    height: 30px;
+    
+  }
+  #backBtn{
+    height: 30px;
+    width: 40px;
+  }
+}
