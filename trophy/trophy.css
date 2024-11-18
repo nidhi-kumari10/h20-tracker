@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-image: url('celebration-background-template-with-confetti-vector-21969417.jpg'); /* Replace with your image path */
+  background-size: cover; /* Ensures the image covers the container */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents tiling */
+  overflow: hidden;
+}
+ .container {
+   width: 100%; /* Adjust as per your layout */
+   height: 100vh; /* Full viewport height */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction:column;
+        
+    }
+ .trophy{
+    height:350px;
+    width: 230px;
+    align-items: center;
+    margin-top: 30px;
+    animation: appear 5s forwards;  
+    animation-delay:1s;
+    opacity:0;
+       }   
+#photo{
+    height:350px;
+}
+.text{
+    height:60px;
+    margin-top:50px;
+    font-size: xx-large;
+    color:goldenrod;
+    font-style: italic;
+    font-weight: bolder;
+}
+.nav{
+  height:50px;
+  width:70px;
+}
+#arrow{
+  width: 70px;
+  margin-left: 20px;
+}
+@keyframes appear {
+    from {
+      opacity: 0;
+      transform: translateY(90px); /* Slightly move up for effect */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+  }
+
+@media (max-width:480px){
+    .trophy{
+        height:250px;
+        width: 162px; 
+        margin-top: 100px;   
+       }  
+     #photo{
+        height: 250px;
+    } 
+    .text{
+        height:60px;
+        margin-top:50px;
+        font-size:x-large;
+        font-weight: bolder;
+    }   
+  #arrow{
+    width:50px;
+    margin-left:5px;
+  }  
+
+}
