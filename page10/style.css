@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 .container{
     background-image: linear-gradient( #edf6fa, #95c3f2);
@@ -78,4 +79,28 @@ button:hover{
 a{
     text-decoration: none;
     color: black;
+}
+@media (max-width:480px){
+    *{
+        overflow: visible;
+    }
+    .container{
+        padding: 10px;
+    }
+    .text1{
+        font-size: 1.6rem;
+        margin-top: 15px;
+    }
+    .text2{
+        font-size: 1rem;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .text3{
+        font-size: 0.8rem;
+        margin-left: 10px;
+        margin-right: 10px;
+
+    }
 }

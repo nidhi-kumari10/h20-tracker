@@ -1,13 +1,16 @@
 *{
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 .container{
     background-image: linear-gradient( #edf6fa, #95c3f2);
     height:100vh;
-
 }
-
+a{
+    text-decoration: none;
+    color: black;
+}
 .text1{
     color:blue;
     font-size:xx-large;
@@ -31,6 +34,7 @@ hr{
    justify-content: center;
    font-size: x-large;
    font-weight: 800;
+   text-align: center;
 }
 .text5{
     font-size: x-large;
@@ -76,7 +80,35 @@ hr{
     justify-content: center;
     margin-top: 30px;
 }
-a{
-    text-decoration: none;
-    color: black;
+@media(max-width:480px){
+    *{
+        overflow: visible;
+    }
+    .container{
+        padding: 10px;
+    }
+    .text1{
+        font-size: 1.5rem;
+    }
+    .text2{
+        font-size: 1rem;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 7px;
+    }
+    .text3{
+        font-size: 1.2rem;
+    }
+    .text4{
+        font-size: 0.9rem;
+    }
+    .text5{
+        font-size: 1.2rem;
+    }
+    .text6{
+        font-size: 0.9rem;
+    }
+    .text7{
+        font-size: 1rem;
+    }
 }

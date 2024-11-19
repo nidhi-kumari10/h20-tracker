@@ -38,6 +38,7 @@ hr{
     height: 5vh;
     border-radius: 5px;
     font-size: larger;
+    text-align: center;
 }
 .res{
     display: flex;

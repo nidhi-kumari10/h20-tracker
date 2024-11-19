@@ -1,69 +1,122 @@
-* {
+*{
     margin: 0;
     padding: 0;
+    overflow: hidden;
+}
+.container{
+    background-image: linear-gradient( #edf6fa, #95c3f2);
+    height:100vh;
+
 }
 
-.container {
-    background-image: linear-gradient(#edf6fa, #95c3f2);
-    height: 100vh;
-
-}
-
-.text1 {
-    color: blue;
-    font-size: xx-large;
+.text1{
+    color:blue;
+    font-size:xx-large;
     font-weight: 800;
     display: flex;
     justify-content: center;
     margin-top: 30px;
 }
-
-hr {
-    margin-top: 30px;
+hr{
+   margin-top: 30px;
 }
-
-.text3 {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
+.text3{
+   margin-top: 20px;
+   display: flex;
+   justify-content: center;
+   font-size: x-large;
+   font-weight: 800;
+}
+.text5{
     font-size: x-large;
     font-weight: 800;
 }
-
-.text5 {
-    font-size: x-large;
-    font-weight: 800;
-}
-
-.text6 {
+.text6{
     color: rgb(97, 96, 96);
 }
-
-.text7 {
+.text7{
     color: rgb(97, 96, 96);
 }
-
-.text8 {
+.text8{
     font-size: x-large;
     font-weight: 800;
 }
-
-.text9 {
+.text9{
     font-size: x-large;
     font-weight: 800;
 }
-
-.text10 {
+.text10{
     color: rgb(97, 96, 96);
 }
-
-.con1 {
+.con1{
     display: flex;
     justify-content: center;
     margin-top: 30px;
 }
-
+.cont1{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.cont2{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.cont3{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.cont4{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.cont5{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.cont6{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
 a {
     text-decoration: none;
     color: black;
+}
+@media (max-width:480px){
+    *{
+        overflow: visible;
+    }
+    .container{
+        padding: 10px;
+    }
+    .text1{
+        font-size: 1.7rem;
+        margin-top: 10px;
+    }
+    .text3{
+        font-size: 1.2rem;
+    }
+    .text5{
+        font-size: 1.2rem;
+    }
+    .text8{
+        font-size: 1.2rem;
+    }
+    .text9{
+        font-size: 1.2rem;
+    }
+    .text6{
+        font-size: 0.8rem;
+    }
+    .text7{
+        font-size: 0.8rem;
+    }
+    .text10{
+        font-size: 0.8rem;
+    }
 }

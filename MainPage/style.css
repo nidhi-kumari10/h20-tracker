@@ -80,7 +80,7 @@ body{
   .profile-menu {
     position: fixed;
     top:0;
-    margin-top: 300px;
+    margin-top: 250px;
     right:-40px; /* Sidebar is hidden off-screen */
     width: 200px;
     height: 100vh;

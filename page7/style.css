@@ -5,9 +5,7 @@
 .container{
     background-image: linear-gradient( #edf6fa, #95c3f2);
     height:100vh;
-
 }
-
 .text1{
     color:blue;
     font-size:xx-large;
@@ -37,7 +35,7 @@ hr{
     width: 35vh;
     height: 5vh;
     border-radius: 5px;
-    font-size: large;
+    text-align: center;
 }
 .res{
     display: flex;
@@ -73,4 +71,26 @@ button{
 a{
     text-decoration: none;
     color: black;
+}
+@media (max-width:480px){
+    .container{
+        padding: 10px;
+    }
+    .text1{
+        font-size: 1.6rem;
+        margin-top: 15px;
+    }
+    .text2{
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+    .logo1{
+        height: 30px;
+    }
+    .text3{
+        height: 5vh;
+    }
+    .logo{
+        height: 40px;
+    }
 }

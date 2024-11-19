@@ -34,10 +34,9 @@ hr{
     border: none;
     outline: none;
     background-color: rgb(237, 232, 232);
-    width: 40vh;
+    width: 35vh;
     height: 5vh;
     border-radius: 5px;
-    font-size:15px;
     text-align: center;
 }
 .res{
@@ -80,4 +79,26 @@ button{
 a{
     text-decoration: none;
     color: black;
+}
+@media (max-width:480px){
+    .container{
+        padding: 10px;
+    }
+    .text1{
+        font-size: 1.6rem;
+        margin-top: 15px;
+    }
+    .text2{
+        font-size: 1rem;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .tet{
+        font-size: 0.9rem;
+    }
+    .text3{
+        text-align: center;
+    }
+
 }
