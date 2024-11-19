@@ -67,9 +67,9 @@ body{
         height: 250px;
     } 
     .text{
-        height:60px;
+        height:40px;
         margin-top:50px;
-        font-size:x-large;
+        font-size:large;
         font-weight: bolder;
     }   
   #arrow{
