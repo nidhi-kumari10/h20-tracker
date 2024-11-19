@@ -207,14 +207,12 @@ body{
   width:200px;
   height:200px;
 }
-@media (max-width:480px) {
+@media (max-width:460px) {
   .Stories{
     height:40px;
     width:40px;
 }
-body{
-  overflow: hidden;
-}
+
 .new{
   margin-left: 90px;
   height:45px;
