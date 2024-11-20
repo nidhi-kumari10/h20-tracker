@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    background-image: linear-gradient( #edf6fa, #95c3f2);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    margin: 20px auto;
+    padding: 20px;
+    width:1300px ;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    height: 690px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+table {
+    width: 1200px;
+    border-collapse: collapse;
+    margin: 0 auto;
+    height: 600px;
+}
+
+caption {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.icon{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 2px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+.d1{
+  background-color: aqua;
+}
+.d2{
+   background-color: palevioletred; 
+}
+.d3{
+   background-color: peachpuff; 
+}
+.d4{
+   background-color: greenyellow; 
+}
+.d5{
+   background-color: paleturquoise; 
+}
+.d6{
+  background-color: cadetblue;  
+}
+.d7{
+   background-color: antiquewhite; 
+}
+.d8{
+   background-color: yellow; 
+}
+.d9{
+   background-color: cornflowerblue; 
+}
+.d10{
+    background-color: darksalmon;
+}
+@media (max-width: 480px) {
+    *{
+        overflow: hidden;
+    }
+    table {
+        display: block; 
+        overflow-x: auto;
+        width: 380px;
+    }
+
+    th, td {
+        width: 120px;
+    }
+    .container{
+        width: 300px;
+        margin-right: 10px;
+        margin-left: 20px;
+        height: 600px;
+    }
+    .icon{
+        margin-left:0;
+    }
+}
